@@ -48,4 +48,14 @@ Work completed to date combines content strategy, SEO preparation, structured da
 
 ---
 
+## WorkCity Africa Landing Page Walkthrough
+
+I created a 5–10 minute video walkthrough explaining the approach, technical decisions, SEO/schema considerations, and potential improvements for the WorkCity Africa landing page.  
+
+Watch the walkthrough here: [View Video](https://youtu.be/8582RlzBnVA)  
+
+**Short Description:**  
+This video demonstrates the development process of the WorkCity Africa landing page using WordPress and Elementor, covering research, planning, implementation, SEO optimization, schema integration, and ongoing challenges with Google Analytics setup on a local development environment.
+
+
 ## File Structure (summary)
