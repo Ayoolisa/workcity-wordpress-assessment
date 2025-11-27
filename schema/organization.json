@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Workcity",
+  "url": "https://workcity.com",
+  "logo": "https://workcity.com/logo.png",
+  "description": "Workcity is a leading real estate and interior development brand offering residential and commercial design solutions, space planning, custom decor, and renovation services.",
+  "email": "info@workcity.com",
+  "telephone": "+2347002229222",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plot 1, Maruwa Bus Stop, 128 Remi Olowude St, Lekki Phase 1",
+    "addressLocality": "Lagos",
+    "addressRegion": "LA",
+    "postalCode": "105102",
+    "addressCountry": "NG"
+  },
+  "sameAs": [
+    "https://facebook.com/workcity",
+    "https://instagram.com/workcity",
+    "https://linkedin.com/company/workcity"
+  ]
+}
