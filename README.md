@@ -1,61 +1,37 @@
-# Workcity Assessment — Project Repository
+# WorkCity Africa Landing Page
 
-## Overview
-This repository contains the ongoing development of a real estate website.  
-Work completed to date combines content strategy, SEO preparation, structured data (schema), and layout implementation using WordPress and Elementor.
+## Setup Instructions
+1. Install XAMPP and start Apache & MySQL.  
+2. Create a database for the WordPress installation via phpMyAdmin.  
+3. Download WordPress and extract it to the `htdocs` folder (e.g., `htdocs/workcity-assessment`).  
+4. Update `wp-config.php` with your database name, username, and password.  
+5. Access the site via `http://localhost/workcity-assessment` or via your local IP on mobile.  
+6. Install and activate the chosen WordPress theme.  
+7. Install Elementor and required plugins for SEO, caching, and forms.  
+8. Import or build page content sections: Hero, Services, Testimonials, Contact.  
 
----
+## Tools & Technologies Used
+- WordPress  
+- Elementor Page Builder  
+- XAMPP (Local development)  
+- Google Analytics (setup in progress, pending live deployment)  
+- Plugins for SEO, caching, and forms  
 
-## Work Completed
+## Challenges Encountered & Resolution
+- **Google Analytics Integration:** Could not fully connect because the website was hosted locally; tracking is pending live deployment or tunnel setup.  
+- **Icons & Assets Loading on Mobile:** Mixed content issues when accessing the site from HTTP. Resolved by updating WordPress site URL to the local network IP and regenerating Elementor CSS.  
 
-### 1. Knowledge Panel Strategy
-- Added `knowledge-panel-strategy.md` containing:
-  - SEO insights and recommendations
-  - Short-answer content for featured snippets
-  - Brand positioning and Knowledge Graph support notes
+## Knowledge Graph / SEO Considerations
+- Structured Organization and Contact schema implemented.  
+- SEO optimized headings, URLs, meta titles, descriptions, and images.  
+- Sitemap submitted (for future live deployment).  
 
-### 2. Schema & Structured Data
-- Added structured data configuration files:
-  - Organization, LocalBusiness, Website, Service, Testimonial, FAQ schemas
-- Files live in `/schema` and are optimized for rich results.
-
-### 3. SEO Diagnosis & Content Prep
-- Included `seo-diagnosis.md` that highlights:
-  - Key SEO issues and quick wins
-  - Suggested meta descriptions and short answers
-- Prepared short-form content for meta/snippet use.
-
-### 4. WordPress Foundation
-- Uploaded WordPress configuration and environment files
-- Site structure and baseline plugin recommendations included
-
-### 5. Elementor Templates & Layouts
-- Added Elementor templates for:
-  - Hero
-  - Services
-  - Approach
-  - Testimonials (“Voices of Trust”)
-  - Contact (“Bring Us Your Idea”)
-  - Footer and common UI blocks
-- Templates stored in `/elementor-templates`
-
-### 6. Content & Section Documentation
-- Page-level documentation and copy lives in `/content`
-- Includes headlines, CTAs, section descriptions, and testimonial copy
-
-### 7. Repo Organization
-- Assets, templates, schema, and docs are organized into logical folders for easy handoff and collaboration.
-
----
-
-## WorkCity Africa Landing Page Walkthrough
-
-I created a 5–10 minute video walkthrough explaining the approach, technical decisions, SEO/schema considerations, and potential improvements for the WorkCity Africa landing page.  
-
-Watch the walkthrough here: [View Video](https://youtu.be/8582RlzBnVA)  
+## Video Walkthrough
+I created a 5–10 minute video demonstrating the development process, technical decisions, SEO/schema considerations, and challenges.  
+[Watch the Walkthrough](https://youtu.be/8582RlzBnVA)
 
 **Short Description:**  
-This video demonstrates the development process of the WorkCity Africa landing page using WordPress and Elementor, covering research, planning, implementation, SEO optimization, schema integration, and ongoing challenges with Google Analytics setup on a local development environment.
+This video showcases the workflow for building the WorkCity Africa landing page, highlighting research, design, implementation using WordPress & Elementor, SEO optimizations, and challenges with analytics setup on a local environment.
 
-
-## File Structure (summary)
+## Meaningful Commit History
+- Commit messages reflect workflow stages: setup, theme installation, Elementor page design, SEO configuration, troubleshooting issues.
